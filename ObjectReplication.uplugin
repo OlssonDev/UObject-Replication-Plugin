@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UObject Replication Plugin",
+	"Description": "Enables projects to replicate UObjects over the network in Blueprints",
+	"Category": "Networking",
+	"CreatedBy": "OlssonDev",
+	"CreatedByURL": "",
+	"DocsURL": "https://docs.google.com/document/d/1_6JBR97Hc1rjw3kbHeQTlpiAGKMCaFZq1Vi0mWCupZE/edit?usp=sharing",
+	"EngineVersion": "ANY_VERSION",
+	"SupportURL": "https://discord.gg/mRnk9Vnq5T",
+	"MarketplaceURL": "com.epicgames.launcher:\n//ue/marketplace/product/34834b25f9b94125a015342fb3fae218",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "ObjectReplication",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux",
+				"IOS",
+				"Android"
+			]
+		},
+		{
+			"Name": "ObjectReplicationEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	]
+}
